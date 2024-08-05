@@ -3,19 +3,23 @@ body{background-color: hsl(47, 88%, 63%);
 }
  
 .container{
+    background-color: hsl(47, 88%, 63%);
     display: flex;
     height: 100vh;
-  justify-content: center;
-align-items: center;    
+    justify-content: center;
+    align-items: center;
+     
 }
-
 
 .card{
     background-color: hsl(0, 0%, 100%);
-    width: 350px;
-    height: 500px;
+    width: 380px;
+    height: 520px;
     border-radius: 15px;
     box-shadow: 10px 10px;  
+    border: 1px solid black;
+    font-family: "Figtree", sans-serif;
+      
 }
 
 @media(max-width:375px){
@@ -24,15 +28,15 @@ align-items: center;
     }
 }
 .img{
-    text-align: center;
     width: 90%;
     border-radius: 15px;
     margin: auto;
     display: block;
     margin-top: 20px;
-    margin-bottom: 20px;
-   
-    
+    margin-bottom: 20px;  
+}
+.text-box{
+    margin-left: 20px; 
 }
 
 .learning{
@@ -42,41 +46,24 @@ align-items: center;
     padding: 5px;
     font-size: 16px;
     text-align: center;
-    font-weight: 900;
-    margin: 10px;
-    font-family: "Figtree", sans-serif;
-    
+    font-weight: 900;    
 }
-
-.date{
-    font-size: 14px;
-    font-weight: 600;
-    margin: 15px;
-    font-family: "Figtree", sans-serif;  
+p{
+    font-weight: 500;
 }
  .title{
-    margin: 15px;
-    font-family: "Figtree", sans-serif;
-   font-size: 12px;
+   font-size: 25px;
    :hover{ color:hsl(47, 88%, 63%) ;}
    cursor: pointer;
 }
-
-
 .text{
-    font-size: 16px;
-    font-weight: 500;
-    margin-left: 15px;
-    margin-right: 20px;
-    color: hsl(0, 0%, 42%);
-    font-family: "Figtree", sans-serif;    
+    color: hsl(0, 0%, 42%);   
 }
 .name{
     display: flex;
     align-items: center;
     margin-top: 30px;
-    margin-left: 15px;
-    font-family: "Figtree", sans-serif;
+    margin-left: 15px;  
    font-weight: 600; 
 }
   
